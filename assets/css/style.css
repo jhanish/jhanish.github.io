@@ -1,0 +1,56 @@
+/* CSS for Star Wars Hangman */
+body {
+  background-color: black;
+}
+
+#blurb_display {
+  background-color: black;
+  text-align: center;
+  color: gray;
+  padding: 4%;
+  font-family: 'Audiowide', cursive;
+}
+
+#phrase_display {
+  font-size: 4em;
+  letter-spacing: 10px;
+  margin-top: 0;
+  padding: 4%;
+  background-color: yellowgreen;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+}
+
+.msgbtn {
+  background-color: white;
+  color: black;
+}
+
+.win-message {
+  color: green;
+  font-size: 1.5em;
+  display: block;
+  margin-bottom: 4%;
+}
+
+.lose-message {
+  color: red;
+  font-size: 1.5em;
+  display: block;
+  margin-bottom: 4%;
+}
+
+#image_display {
+  background-image: './assets/images/poster.jpg';
+}
+
+#main_image {
+  width: 100%;
+};
+
+.vader-message {
+  color: gainsboro;
+  font-size: 1.5em;
+  display: block;
+  margin-bottom: 4%;
+}
